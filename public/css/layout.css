@@ -1,0 +1,70 @@
+html body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.app{
+    background-color: #fff;
+    padding:10px  20px;
+
+}
+.header{
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    text-align: center;
+    padding: 5px 5px 0 5px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.header-img:nth-child(1){
+    width: 40px;
+    height: 20px;
+    padding: 10px;
+}
+.header-img:nth-child(2){
+    width: 76px;
+    height: 26px;
+}
+.header__ul{
+    list-style-type:none;
+    display: flex;
+
+}
+.header__right{
+    text-align: center;
+}
+.header__li-a{
+    text-decoration: none;
+    color: #666;
+    border: 1px solid #666  ;
+    border-radius: 20px;
+    padding: 4px 10px;  
+}
+.no-border{
+    border: none;
+}
+
+
+
+
+/* .header-img {
+    position: relative;
+    display: inline-block;
+}
+
+.header-img:hover::after {
+    content: attr(title);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+    background-color: red; Màu nền khi hover
+    border-radius: 10px; Độ cong góc khi hover
+    color: white; Màu chữ khi hover
+    z-index: 1;
+    box-sizing: border-box;
+    display: block;
+} */
